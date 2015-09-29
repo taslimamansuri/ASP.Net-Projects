@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Tandy Leather</title>
+    <link href="Styles/LeatherStyle.css" rel="stylesheet" />
+    
+    <script src="JavaScript/jquery-1.3.2.min.js"></script>
+
+    
+    <script src="MainScript.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div id="wrapper">
+            <div id="banner">
+                <h2>The Leather Store</h2>
+            </div>
+            <div id="navigation">
+
+                <ul id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a  href="Bag.aspx">Bags</a>
+                        <%--<ul>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Office</a></li>
+                        </ul>--%>
+
+                    </li>
+
+                    <li><a href="#">Accessories</a>
+                        <ul>
+                            <li><a href="#">Wallet</a></li>
+                            <li><a href="#">Belt</a></li>
+                            <li><a href="#">Cover</a></li>
+                        </ul>
+                     </li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+            <div id="Content-area">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+            <div id="sidebar">
+
+            </div>
+            <div id="footer">
+                <p>All Rights are reserved.</p>
+            </div>
+
+        </div>
+
+
+
+    </form>
+</body>
+</html>

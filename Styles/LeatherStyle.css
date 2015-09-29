@@ -1,0 +1,126 @@
+﻿body {
+    font-family: 'lucida grande' ,Tahoma, Verdana, Arial, sans-serif;
+    background-color: #e9e9e9;
+}
+#wrapper {
+    width:1080px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid #dedede;
+    background-color: #fff;
+}
+#banner {
+    height: 200px;
+    border: 3px solid #e3e3e3;
+    background-image:url(../Images/brownLeather.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+   
+}
+h2 {
+    background-image:url(../Images/leatherBack.jpg);
+    padding-bottom:5px;
+    padding-top:10px;
+    height: 60px;
+    font-size:30px;
+}
+#navigation {
+    height: 60px;
+    border: 3px solid #e3e3e3;
+    margin-top: 20px;
+     background-image:url(../Images/nav.jpeg);
+}
+#nav {
+    list-style:none;
+}
+    #nav ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+        width:auto;
+        display:none;
+    }
+    #nav li {
+        display:inline-block;
+        font-size: 24px;
+        float:left;
+        position:relative;
+        width:180px;
+        height:50px;
+    }
+        #nav li ul li {
+            display:inline-block;
+           background-image:url(../Images/nav.jpeg);
+           background-repeat:no-repeat;
+           background-size:cover;
+           border:3px solid #e3e3e3;
+           padding-left: 10px;
+
+        }
+
+    #nav a:link, #nav a:visited, #nav a:active {
+        display:block;
+        text-decoration:none;
+        color:black;
+    }
+    #nav a:hover {
+        color:lightblue;
+    }
+#Content-area {
+    float: left;
+    width: 750px;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    border: 3px solid #e3e3e3;
+}
+#na1, #na2, #na3 {
+    width:246px;
+    height:200px;
+}
+#sd1, #sd2, #sd3 {
+     width:246px;
+    height:200px;
+}
+#offer {
+    height:200px;
+    width:750px;
+}
+#sidebar {
+    float: right;
+    width: 250px;
+    height: 400px;
+    margin: 20px 10px 20px 10px;
+    border: 3px solid #e3e3e3;
+}
+#footer {
+    clear: both;
+    width: auto;
+    height: 40px;
+    margin-top: 20px; 
+    border: 3px solid #e3e3e3;
+     background-image:url(../Images/nav.jpeg);
+}
+
+.bagsTable
+{
+    width: 700px;
+    height: 250px;
+    margin: 0 10px 10px 0;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+    
+}
+
+.bagsTable tr th, .bagsTable tr td
+{
+    text-align: left;
+    padding: 0px 2px 0 2px;
+}
+
+.bagsTable img
+{
+    padding: 10px 10px 10px 10px;
+    height: 250px;
+    width: 230px;
+}
+
